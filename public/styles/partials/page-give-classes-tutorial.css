@@ -1,0 +1,64 @@
+#page-give-classes-tutorial{
+  background: var(--color-primary);
+
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.page-header .tutorial-give-classes strong{
+
+  margin-top: 2rem;
+
+  font-size: 5rem;
+  color: var(--color-title-in-primary);
+  
+  
+}
+.page-header .tutorial-give-classes h2{
+
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: var(--color-secondary  );
+  
+}
+.page-header .tutorial-give-classes p{
+
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: var(--color-text-in-primary  );
+ 
+}
+
+.page-header .tutorial-give-classes .button-tutorial2 {
+  width: 100%;
+  height: 5.6rem;
+  background: var(--color-text-title);
+  color: var(--color-title-in-primary);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /*só por garantia*/
+  transition: 0.3s;
+  margin-top: 3.2rem;
+  outline: 0; /*tirar o quadradinho que fica em cima do botão ao clicar*/
+}
+.page-header .tutorial-give-classes .button-tutorial2 ac{
+margin-left: 1rem;
+}
+
+.page-header .tutorial-give-classes .button-tutorial2:hover {
+  transform: translateY(-5px);
+}
+
+
+.page-header .background{
+  align-items: center;
+  position: fixed;
+}

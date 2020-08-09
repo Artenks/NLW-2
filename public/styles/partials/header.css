@@ -1,0 +1,185 @@
+.page-header {
+  background-color: var(--color-primary);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header .top-bar-container {
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  border: 1px solid var(--color-primary-dark);
+
+
+  background: var(--color-primary-darker);
+  
+
+  padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container .go-give-classes a{
+  display: flex;
+  vertical-align: middle;
+  outline: none;
+  text-decoration: none;
+
+  font-size: 2rem;
+color: var(--color-primary-lighter);
+  }
+  .page-header .top-bar-container .go-give-classes img{
+    display: flex;
+    vertical-align: middle;
+
+    margin-right: 1rem;
+  
+  }
+
+.page-header .top-bar-container .go-study a{
+  display: flex;
+vertical-align: middle;
+outline: none;
+text-decoration: none;
+
+font-size: 2rem;
+color: var(--color-primary-lighter);
+
+}
+
+.page-header .top-bar-container .go-study img{
+  display: flex;
+  vertical-align: middle;
+
+  margin-right: 1rem;
+}
+
+.page-header .top-bar-container a {
+  height: 3.2rem;
+  transition: opacity 0.2s;
+
+}
+
+.page-header .top-bar-container a:hover {
+  opacity: 0.6;
+}
+
+.page-header .top-bar-container > img {
+  height: 1.6rem;
+ 
+  
+  display: flex;
+  vertical-align: middle;
+  
+}
+/* colocando a seta .top-bar-container > img pegará apenas a img de primeiro nível, ou seja, a seta de back*/
+
+.page-header .header-content {
+  width: 90%;
+  margin: 3.2rem auto;
+
+  position: relative;
+}
+
+.page-header .header-content strong {
+  font: 700 3.6rem Archivo;
+  line-height: 4.2rem;
+  color: var(--color-title-in-primary);
+
+  justify-content: space-between;
+}
+
+.page-header .header-content p {
+  max-width: 30rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  
+  color: var(--color-text-in-primary);
+  
+ 
+}
+
+.page-header .header-content .proffys-count p{
+  margin:0;
+  margin-top: 2.5rem;
+  display: inline-flex;
+align-content: center;
+vertical-align: middle;
+
+
+
+  width: 50%;
+}
+.page-header .header-content .proffys-count img{
+margin: 0;
+margin-top: 2.5rem;
+  display: inline-flex;
+  align-content: center;
+  vertical-align: middle;
+
+
+ }
+
+ #page-give-classes .page-header .rocket img{
+  margin-right: 0.8rem;
+  transition: 1s;
+  vertical-align: middle;
+
+}
+#page-give-classes .page-header .rocket img:hover {
+  transform: translateY(-15px);
+
+}
+
+#page-give-classes .page-header .rocket p:hover {
+  transition: 2s;
+  cursor: default;
+  color:var(--color-secondary)
+
+}
+
+
+@media (min-width: 700px) {
+  .page-header {
+    height: 340px;
+  }
+
+  .page-header .top-bar-container {
+    justify-content: space-around;
+    max-width: 100vw;
+    width: 100%;
+
+  }
+
+  .page-header .header-content {
+    max-width: 740px;
+
+    margin: 0 auto;
+
+    flex: 1 1;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column; /*deixa a ideia de colunas, evitando ficar um ao lado do outro*/
+    justify-content: center;
+  }
+
+  .page-header .header-content strong {
+    max-width: 350px;
+  }
+
+  .page-header-landing {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  align-self: flex-end;
+
+
+  background-color: var(--color-background)
+  }
+}
+
+/* configurações css, parte base de cada página  
+(a parte base de cima, a roxa) */

@@ -1,0 +1,49 @@
+#transition-give-classes {
+  background: var(--color-primary);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+
+
+
+ 
+}
+.page-header .register .check-mark{
+  width: 30%;
+
+}
+
+.page-header .register strong{
+  font-size: 5rem;
+  color: var(--color-title-in-primary);
+
+  display: flex;
+  justify-content: center;
+}
+.page-header .register h1{
+  font-size: 4rem;
+  color: var(--color-secondary);
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.page-header .register p{
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: var(--color-text-in-primary);
+
+  justify-content: center;
+}
+
+/* .page-header .background-success img {
+position: fixed;
+display: flex;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+
+
+} */
