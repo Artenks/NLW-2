@@ -26,3 +26,5 @@ ao topo da tela, é possível clicar no botão do centro e ir para a área do es
 O botão de remover um novo horário está com um pequeno problema de ao acabar excluindo todas as horas,
 pelo código de criar novos horários ser um clone, e como todos acabaram sendo excluídos, essa parte
 do código acaba dando erro e nao clona nada, por nao existir nada.
+
+**💚Desde já, obrigado, foi incrível esse NLW**
